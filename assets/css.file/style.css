@@ -17,6 +17,7 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 
     width: 100%;
     height: 100vh;
@@ -25,21 +26,41 @@ h1{
 }
 
 .intro_suptitle{
+    margin-bottom: 20px;
     font-family: 'Kaushan Script', cursive;
     font-size: 30px;
     text-transform: uppercase;
-    text-align: center;
     line-height: 0;
-    color: #5F9EA0;
+    color: #4682B4;
 }
 
 .intro_title{
     font-size: 150px;
     font-weight: 800;
     text-transform: uppercase;
-    text-align: center;
     line-height: 1;
     color: #4682B4;
+}
+
+.btm{
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px;
+
+    margin: 100px auto 0;
+
+    border: 2px solid #fff;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+
+    transition: color .5s linear;
+}
+
+.btm:hover{
+    color: red;
 }
 
 .header{
