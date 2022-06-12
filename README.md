@@ -3,4 +3,4 @@
 test-html/css/layout
 
 current state:
-<img src= "/Users/Ibragim/Desktop/status.1">
+<img src= "https://github.com/muslimitsuhide/layout_test/blob/main/assets/images/status.1.png">
